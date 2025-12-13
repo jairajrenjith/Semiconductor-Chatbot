@@ -50,7 +50,7 @@ Chip AI Chatbot/
 
 Clone the repository:
 
-git clone https://github.com/your-username/semiconductor-datasheet-ai-chatbot.git  
+git clone https://github.com/jairajrenjith/semiconductor-datasheet-ai-chatbot.git  
 cd semiconductor-datasheet-ai-chatbot
 
 Create a virtual environment:
