@@ -1,4 +1,4 @@
-# Semiconductor-Datasheet-AI-Chatbot
+# Semiconductor-Chatbot
 
 An AI-powered chatbot that enables natural-language querying of semiconductor datasheets to retrieve accurate technical specifications and parameters.
 
