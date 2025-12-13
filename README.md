@@ -31,16 +31,16 @@ The Semiconductor Datasheet AI Chatbot ingests official semiconductor datasheets
 Chip AI Chatbot/
 │
 ├── data/
-│   ├── raw/                Input PDF datasheets
-│   └── processed/          Extracted and processed text
+│   ├── raw/                #Input PDF datasheets
+│   └── processed/          #Extracted and processed text
 │
 ├── vector_db/
-│   └── qdrant/             Persistent vector database
+│   └── qdrant/             #Persistent vector database
 │
-├── ingest.py               PDF ingestion and text extraction
-├── index.py                Vector index creation
-├── query_engine.py         Query engine and model configuration
-├── app.py                  Gradio-based UI
+├── ingest.py               #PDF ingestion and text extraction
+├── index.py                #Vector index creation
+├── query_engine.py         #Query engine and model configuration
+├── app.py                  #Gradio-based UI
 ├── requirements.txt
 └── README.md
 ```
