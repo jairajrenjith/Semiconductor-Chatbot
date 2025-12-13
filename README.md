@@ -140,3 +140,5 @@ Both language models use the same vector database for retrieval.
 ## License
 
 This project is intended for educational and research purposes only.
+
+By Jairaj R and Madhav R Nair.
