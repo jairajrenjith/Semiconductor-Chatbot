@@ -1,0 +1,37 @@
+[
+  {
+    "text": "L293D\nL293DD\n\u00ae\nPUSH-PULL FOUR CHANNEL DRIVER WITH DIODES\n600mA OUTPUT CURRENT CAPABILITY\nPER CHANNEL\n1.2A PEAK OUTPUT CURRENT (non repeti-\ntive) PER CHANNEL\nENABLE FACILITY\nOVERTEMPERATURE PROTECTION\nLOGICAL \"0\" INPUT VOLTAGE UP TO 1.5 V\n(HIGH NOISE IMMUNITY)\nINTERNAL CLAMP DIODES SO(12+4+4) Powerdip (12+2+2)\nORDERING NUMBERS:\nDESCRIPTION\nThe Device is a monolithic integrated high volt- L293DD L293D\nage, high current four channel driver designed to\naccept standard DTL or TTL logic levels and drive\ninductive loads (such as relays solenoides, DC\nand stepping motors) and switching power tran-\nsistors.\nTo simplify use as two bridges each pair of chan-\nnels is equipped with an enable input. A separate The L293D is assembled in a 16 lead plastic\nsupply input is provided for the logic, allowing op- packaage which has 4 center pins connected to-\neration at a lower voltage and internal clamp di- gether and used for heatsinking\nodes are included. The L293DD is assembled in a 20 lead surface\nThis device is suitable for use in switching appli- mount which has 8 center pins connected to-\ncations at frequencies up to 5 kHz. gether and used for heatsinking.\nBLOCK DIAGRAM\nJuly 2003 1/7",
+    "source": "l293d_datasheet_st.pdf",
+    "page": 1
+  },
+  {
+    "text": "L293D - L293DD\nABSOLUTE MAXIMUM RATINGS\nSymbol Parameter Value Unit\nVS Supply Voltage 36 V\nVSS Logic Supply Voltage 36 V\nVi Input Voltage 7 V\nVen Enable Voltage 7 V\nIo Peak Output Current (100 m s non repetitive) 1.2 A\nPtot Total Power Dissipation at Tpins = 90 (cid:176) C 4 W\nTstg, Tj Storage and Junction Temperature \u2013 40 to 150 (cid:176) C\nPIN CONNECTIONS (Top view)\nSO(12+4+4) Powerdip(12+2+2)\nTHERMAL DATA\nSymbol Decription DIP SO Unit\nRth j-pins Thermal Resistance Junction-pins max. \u2013 14 (cid:176) C/W\nRth j-amb Thermal Resistance junction-ambient max. 80 50 (*) (cid:176) C/W\nRth j-case Thermal Resistance Junction-case max. 14 \u2013\n(*) With 6sq. cm on board heatsink.\n2/7",
+    "source": "l293d_datasheet_st.pdf",
+    "page": 2
+  },
+  {
+    "text": "L293D - L293DD\nELECTRICAL CHARACTERISTICS (for each channel, VS = 24 V, VSS = 5 V, Tamb = 25 (cid:176) C, unless\notherwise specified)\nSymbol Parameter Test Conditions Min. Typ. Max. Unit\nVS Supply Voltage (pin 10) VSS 36 V\nVSS Logic Supply Voltage (pin 20) 4.5 36 V\nIS Total Quiescent Supply Current Vi = L ; IO = 0 ; Ven = H 2 6 mA\n(pin 10)\nVi = H ; IO = 0 ; Ven = H 16 24 mA\nVen = L 4 mA\nISS Total Quiescent Logic Supply Vi = L ; IO = 0 ; Ven = H 44 60 mA\nCurrent (pin 20)\nVi = H ; IO = 0 ; Ven = H 16 22 mA\nVen = L 16 24 mA\nVIL Input Low Voltage (pin 2, 9, 12, \u2013 0.3 1.5 V\n19)\nVIH Input High Voltage (pin 2, 9, VSS \u00a3 7 V 2.3 VSS V\n12, 19)\nVSS > 7 V 2.3 7 V\nIIL Low Voltage Input Current (pin VIL = 1.5 V \u2013 10 m A\n2, 9, 12, 19)\nIIH High Voltage Input Current (pin 2.3 V \u00a3 VIH \u00a3 VSS \u2013 0.6 V 30 100 m A\n2, 9, 12, 19)\nVen L Enable Low Voltage \u2013 0.3 1.5 V\n(pin 1, 11)\nVen H Enable High Voltage VSS \u00a3 7 V 2.3 VSS V\n(pin 1, 11)\nVSS > 7 V 2.3 7 V\nIen L Low Voltage Enable Current Ven L = 1.5 V \u2013 30 \u2013 100 m A\n(pin 1, 11)\nIen H High Voltage Enable Current 2.3 V \u00a3 Ven H \u00a3 VSS \u2013 0.6 V \u2013 10 m A\n(pin 1, 11)\nVCE(sat)H Source Output Saturation IO = \u2013 0.6 A 1.4 1.8 V\nVoltage (pins 3, 8, 13, 18)\nVCE(sat)L Sink Output Saturation Voltage IO = + 0.6 A 1.2 1.8 V\n(pins 3, 8, 13, 18)\nVF Clamp Diode Forward Voltage IO = 600nA 1.3 V\ntr Rise Time (*) 0.1 to 0.9 VO 250 ns\ntf Fall Time (*) 0.9 to 0.1 VO 250 ns\nton Turn-on Delay (*) 0.5 Vi to 0.5 VO 750 ns\ntoff Turn-off Delay (*) 0.5 Vi to 0.5 VO 200 ns\n(*) See fig. 1.\n3/7",
+    "source": "l293d_datasheet_st.pdf",
+    "page": 3
+  },
+  {
+    "text": "L293D - L293DD\nFigure 1: Switching Times\nTRUTH TABLE (one channel)\nInput Enable (*) Output\nH H H\nL H L\nH L Z\nL L Z\nZ = High output impedance\n(*) Relative to the considered channel\nFigure 2: Junction to ambient thermal resistance vs. area on board heatsink (SO12+4+4 package)\n4/7",
+    "source": "l293d_datasheet_st.pdf",
+    "page": 4
+  },
+  {
+    "text": "L293D - L293DD\nmm inch\nDIM. OUTLINE AND\nMECHANICAL DATA\nMIN. TYP. MAX. MIN. TYP. MAX.\na1 0.51 0.020\nB 0.85 1.40 0.033 0.055\nb 0.50 0.020\nb1 0.38 0.50 0.015 0.020\nD 20.0 0.787\nE 8.80 0.346\ne 2.54 0.100\ne3 17.78 0.700\nF 7.10 0.280\nI 5.10 0.201\nL 3.30 0.130\nPowerdip 16\nZ 1.27 0.050\n5/7",
+    "source": "l293d_datasheet_st.pdf",
+    "page": 5
+  },
+  {
+    "text": "L293D - L293DD\nmm inch OUTLINE AND\nDIM.\nMECHANICAL DATA\nMIN. TYP. MAX. MIN. TYP. MAX.\nA 2.35 2.65 0.093 0.104\nA1 0.1 0.3 0.004 0.012\nB 0.33 0.51 0.013 0.020\nC 0.23 0.32 0.009 0.013\nD 12.6 13 0.496 0.512\nE 7.4 7.6 0.291 0.299\ne 1.27 0.050\nH 10 10.65 0.394 0.419\nh 0.25 0.75 0.010 0.030\nL 0.4 1.27 0.016 0.050\nSO20\nK 0\u02da (min.)8\u02da (max.)\nL\nh x 45\u02da\nA\nB e K A1 C\nH\nD\n20 11\nE\n1 01\nSO20MEC\n6/7",
+    "source": "l293d_datasheet_st.pdf",
+    "page": 6
+  },
+  {
+    "text": "L293D - L293DD\nInformation furnished is believed to be accurate and reliable. However, STMicroelectronics assumes no responsibility for the consequences\nof use of such information nor for any infringement of patents or other rights of third parties which may result from its use. No license is\ngranted by implication or otherwise under any patent or patent rights of STMicroelectronics. Specification mentioned in this publication are\nsubject to change without notice. This publication supersedes and replaces all information previously supplied. STMicroelectronics products\nare not authorized for use as critical components in life support devices or systems without express written approval of STMicroelectronics.\nThe ST logo is a registered trademark of STMicroelectronics\n\u00a9 2003 STMicroelectronics \u2013 Printed in Italy \u2013 All Rights Reserved\nSTMicroelectronics GROUP OF COMPANIES\nAustralia - Brazil - Canada - China - Finland - France - Germany - Hong Kong - India - Israel - Italy - Japan - Malaysia - Malta - Morocco -\nSingapore - Spain - Sweden - Switzerland - United Kingdom - United States.\nhttp://www.st.com\n7/7",
+    "source": "l293d_datasheet_st.pdf",
+    "page": 7
+  }
+]
