@@ -1,7 +1,5 @@
 # Semiconductor-Datasheet-AI-Chatbot
 
-# Semiconductor Datasheet AI Chatbot
-
 An AI-powered chatbot that enables natural-language querying of semiconductor datasheets to retrieve accurate technical specifications and parameters.
 
 ---
@@ -29,7 +27,7 @@ The Semiconductor Datasheet AI Chatbot ingests official semiconductor datasheets
 ---
 
 ## Project Structure
-
+```
 Chip AI Chatbot/
 │
 ├── data/
@@ -45,7 +43,7 @@ Chip AI Chatbot/
 ├── app.py                  Gradio-based UI
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Installation and Setup
