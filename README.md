@@ -26,6 +26,19 @@ The Semiconductor Datasheet AI Chatbot ingests official semiconductor datasheets
 
 ---
 
+## Models Used
+
+Embedding Model:
+- BAAI/bge-small-en-v1.5
+
+Language Models:
+- TinyLlama 1.1B (fast and lightweight)
+- Qwen 2.5 1.5B (higher accuracy)
+
+Both language models use the same vector database for retrieval.
+
+---
+
 ## Project Structure
 ```
 Semiconductor-Chatbot/
@@ -120,19 +133,6 @@ http://127.0.0.1:7860
 - What is the operating temperature range of LM358?
 - What is the input offset voltage of LM358?
 - What is the maximum output current of LM358?
-
----
-
-## Models Used
-
-Embedding Model:
-- BAAI/bge-small-en-v1.5
-
-Language Models:
-- TinyLlama 1.1B (fast and lightweight)
-- Qwen 2.5 1.5B (higher accuracy)
-
-Both language models use the same vector database for retrieval.
 
 ---
 
