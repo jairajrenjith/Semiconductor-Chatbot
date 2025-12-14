@@ -19,7 +19,7 @@ The Semiconductor Datasheet AI Chatbot ingests official semiconductor datasheets
 ## Tech Stack Used
 
 - Python  
-- Hugging Face LLM (Qwen 1.5B / TinyLlama 1.1B)  
+- Hugging Face LLM (Qwen 2.5 1.5B / TinyLlama 1.1B)  
 - BGE Embeddings  
 - Qdrant Vector Database  
 - Gradio UI  
