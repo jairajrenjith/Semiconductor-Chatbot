@@ -48,37 +48,44 @@ Chip AI Chatbot/
 
 ## Installation and Setup
 
-Clone the repository:
+1. Clone the repository
+```bash
+git clone <repo-link>
+```
 
-git clone https://github.com/jairajrenjith/semiconductor-datasheet-ai-chatbot.git  
-
+2. Open the directory
+```bash
 cd semiconductor-datasheet-ai-chatbot
+```
 
-Create a virtual environment:
-
+3. Create a virtual environment:
+```bash
 python -m venv venv
+```
 
-Activate the environment:
-
-Windows:  
+4. Activate the environment:
+a. Windows:  
+```bash
 venv\Scripts\activate
-
-Linux / macOS:  
+```
+b. Linux / macOS:  
+```bash
 source venv/bin/activate
+```
 
-Install dependencies:
-
+5. Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## Adding Datasheets
 
 1. Download official semiconductor datasheets in PDF format.
 2. Place the PDFs inside the directory:
-
+```bash
 data/raw/
-
+```
 Only text-based (non-scanned) PDFs are supported.
 
 ---
@@ -86,25 +93,25 @@ Only text-based (non-scanned) PDFs are supported.
 ## Running the System
 
 Step 1: Ingest datasheets
-
+```bash
 python ingest.py
-
+```
 This extracts and preprocesses text from the datasheets.
 
 Step 2: Build the vector index
-
+```bash
 python index.py
-
+```
 This generates embeddings and stores them in a persistent Qdrant vector database.
 
 Step 3: Launch the chatbot interface
-
+```bash
 python app.py
-
+```
 Open a browser and navigate to:
-
+```bash
 http://127.0.0.1:7860
-
+```
 ---
 
 ## Example Questions
@@ -140,5 +147,6 @@ Both language models use the same vector database for retrieval.
 ## License
 
 This project is intended for educational and research purposes only.
+
 
 By Jairaj R and Madhav R Nair.
