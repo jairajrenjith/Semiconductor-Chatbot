@@ -88,15 +88,15 @@ Semiconductor-Chatbot/
 
       a. Windows:
    
-               ```
-               venv\Scripts\activate
-               ```
+```
+venv\Scripts\activate
+```
 
       b. Linux / macOS:
    
-               ```
-               source venv/bin/activate
-               ```
+```
+source venv/bin/activate
+```
 
 6. Install dependencies:
 
