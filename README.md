@@ -66,17 +66,20 @@ Semiconductor-Chatbot/
 
 ## Installation and Setup
 
-1. Clone the repository
+1. Clone the repository:
+
 ```bash
 git clone <repo-link>
 ```
 
-2. Goto the directory
+2. Goto the directory:
+
 ```bash
 cd Semiconductor-Chatbot
 ```
 
 3. Create a virtual environment:
+
 ```bash
 python -m venv venv
 ```
@@ -94,9 +97,11 @@ python -m venv venv
   ```
 
 5. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
+
 ---
 
 ## Adding Datasheets
