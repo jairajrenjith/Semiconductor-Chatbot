@@ -28,7 +28,7 @@ The Semiconductor Datasheet AI Chatbot ingests official semiconductor datasheets
 
 ## Project Structure
 ```
-Chip AI Chatbot/
+Semiconductor Chatbot/
 │
 ├── data/
 │   ├── raw/                # Input PDF datasheets
@@ -55,7 +55,7 @@ git clone <repo-link>
 
 2. Open the directory
 ```bash
-cd semiconductor-datasheet-ai-chatbot
+cd semiconductor-chatbot
 ```
 
 3. Create a virtual environment:
