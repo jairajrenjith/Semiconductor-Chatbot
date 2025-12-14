@@ -86,15 +86,17 @@ Semiconductor-Chatbot/
 
 4. Activate the environment:
 
-      a. Windows:  
-           ```bash
-           venv\Scripts\activate
-           ```
+      a. Windows:
+   
+               ```
+               venv\Scripts\activate
+               ```
 
       b. Linux / macOS:
-           ```bash
-           source venv/bin/activate
-           ```
+   
+               ```
+               source venv/bin/activate
+               ```
 
 6. Install dependencies:
 
