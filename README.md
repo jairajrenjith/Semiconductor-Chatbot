@@ -80,27 +80,27 @@ Semiconductor-Chatbot/
 
 3. Create a virtual environment:
 
-  ```bash
-  python -m venv venv
-  ```
+    ```bash
+    python -m venv venv
+    ```
 
 4. Activate the environment:
 
   a. Windows:  
-  ```bash
-  venv\Scripts\activate
-  ```
+    ```bash
+    venv\Scripts\activate
+    ```
 
   b. Linux / macOS:  
-  ```bash
-  source venv/bin/activate
-  ```
+    ```bash
+    source venv/bin/activate
+    ```
 
 5. Install dependencies:
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+      ```bash
+      pip install -r requirements.txt
+      ```
 
 ---
 
