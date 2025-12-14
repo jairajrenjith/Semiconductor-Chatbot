@@ -53,9 +53,9 @@ Semiconductor-Chatbot/
 git clone <repo-link>
 ```
 
-2. Open the directory
+2. Goto the directory
 ```bash
-cd semiconductor-chatbot
+cd Semiconductor-Chatbot
 ```
 
 3. Create a virtual environment:
