@@ -43,6 +43,11 @@ Both language models use the same vector database for retrieval.
 ```
 Semiconductor-Chatbot/
 │
+├──.gradio/
+│   └──flagged/
+│
+├──_pycache_/
+│
 ├── data/
 │   ├── raw/                # Input PDF datasheets
 │   └── processed/          # Extracted and processed text
