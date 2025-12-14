@@ -28,7 +28,7 @@ The Semiconductor Datasheet AI Chatbot ingests official semiconductor datasheets
 
 ## Project Structure
 ```
-Semiconductor Chatbot/
+Semiconductor-Chatbot/
 │
 ├── data/
 │   ├── raw/                # Input PDF datasheets
