@@ -68,15 +68,15 @@ Semiconductor-Chatbot/
 
 1. Clone the repository:
 
-  ```bash
-  git clone <repo-link>
-  ```
+    ```bash
+    git clone <repo-link>
+    ```
 
 2. Goto the directory:
 
-  ```bash
-  cd Semiconductor-Chatbot
-  ```
+    ```bash
+    cd Semiconductor-Chatbot
+    ```
 
 3. Create a virtual environment:
 
@@ -87,14 +87,14 @@ Semiconductor-Chatbot/
 4. Activate the environment:
 
   a. Windows:  
-    ```bash
-    venv\Scripts\activate
-    ```
+  ```bash
+  venv\Scripts\activate
+  ```
 
   b. Linux / macOS:  
-    ```bash
-    source venv/bin/activate
-    ```
+  ```bash
+  source venv/bin/activate
+  ```
 
 5. Install dependencies:
 
