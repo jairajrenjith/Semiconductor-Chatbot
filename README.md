@@ -44,7 +44,6 @@ Both language models use the same vector database for retrieval.
 Semiconductor-Chatbot/
 │
 ├──.gradio/                 # Gradio runtime data and user-flagged interactions
-│   └──flagged/             # Store flagged queries and responses from the UI
 │
 ├──_pycache_/               # Python bytecode cache (auto-generated)
 │
@@ -52,8 +51,7 @@ Semiconductor-Chatbot/
 │   ├── raw/                # Input PDF datasheets
 │   └── processed/          # Extracted and processed text
 │
-├── vector_db/
-│   └── qdrant/             # Persistent vector database
+├── vector_db/              # Vector Database
 │
 ├── ingest.py               # PDF ingestion and text extraction
 ├── index.py                # Vector index creation
