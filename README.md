@@ -44,6 +44,7 @@ Both language models use the same vector database for retrieval.
 Semiconductor-Chatbot/
 │
 ├──.gradio/                 # Gradio runtime data and user-flagged interactions
+│   └──flagged/             # Store flagged queries and responses from the UI
 │
 ├──_pycache_/               # Python bytecode cache (auto-generated)
 │
