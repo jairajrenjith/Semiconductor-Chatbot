@@ -162,4 +162,4 @@ http://127.0.0.1:7860
 This project is intended for educational and research purposes only.
 
 
-By Jairaj R and Madhav R Nair.
+By Jairaj R and Madhav V Nair.
