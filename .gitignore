@@ -1,0 +1,74 @@
+# -----------------------------
+# Python cache and build files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.cache/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# -----------------------------
+# OS-generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor folders
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Gradio auto-generated files
+# -----------------------------
+.gradio/
+gradio/
+
+# -----------------------------
+# Qdrant database files
+# -----------------------------
+vector_db/qdrant/*
+
+# Keep gitkeep files
+!vector_db/qdrant/.gitkeep
+
+# -----------------------------
+# Data folders
+# -----------------------------
+data/processed/*
+data/raw/*
+
+# Keep the folder structure
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+# -----------------------------
+# HuggingFace cache
+# -----------------------------
+~/.cache/huggingface/
+huggingface_cache/
+hf_cache/
+
+# -----------------------------
+# Model weights (large files)
+# -----------------------------
+*.bin
+*.safetensors
+*.h5
+
+# -----------------------------
+# Windows / Linux / Mac junk
+# -----------------------------
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
