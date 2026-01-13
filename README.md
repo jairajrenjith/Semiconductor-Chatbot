@@ -54,6 +54,7 @@ Semiconductor-Chatbot/
 ├── vector_db/              # Vector Database
 │
 ├── ingest.py               # PDF ingestion and text extraction
+├── .gitignore              # Ignored files configuration for Git version control
 ├── index.py                # Vector index creation
 ├── query_engine.py         # Query engine and model configuration
 ├── app.py                  # Gradio-based UI
